@@ -12,6 +12,3 @@ B = 0.0064;
 N_roz = -(S)./((((P_1.*V.^2 + P_2.*V +P_3)-B)./LAMBDA) + ((B)./(LAMBDA)));
 
 N_pod = (-S)./((P_1.*V.^2 + P_2.*V +P_3)./LAMBDA);
-
-%gowno
-%eksperymenty eksperymenty
