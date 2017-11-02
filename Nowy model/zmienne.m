@@ -257,10 +257,6 @@ L_b0 = L_s20;
 C_1 = 1 / sqrt(C_d);
 W_r = (1 - X_e0) * W_40;
 
-DEN_1 = (A_fs * DENS_s * C_p2 * (T_d + X1 + (K5 * P))/2);
-DEN_2 = (DENS_b * A_fs * (L - L_s1) * ((X5 + K4 * P) / 2));
-
-K01 = -(K1 + ((K2 * X_e) / 2
 
 
 
