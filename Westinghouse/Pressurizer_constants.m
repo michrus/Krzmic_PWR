@@ -34,7 +34,7 @@ G_he=-250
 G_he1=-250
 tau1_pr=900
 tau2_pr=2
-AUXpr0=0
+AUX_pr0=0
 G_sp=0
 G_sp1=75
 tau3_pr=200
@@ -43,3 +43,5 @@ AUX0=0
 K_pr=0
 Pr1=2265
 Pr2=2275
+
+K_pr1=0
