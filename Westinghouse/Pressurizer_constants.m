@@ -30,18 +30,31 @@ X_vgp=0.40847
 J=5.4027
 W_sr0=0
 W_sp=0
-G_he_init=-250
+G_he=-250
 G_he1=-250
 tau1_pr=900
 tau2_pr=2
 AUX_pr0=0
-G_sp_init=0
+G_sp=0
 G_sp1=75
 tau3_pr=200
 tau4_pr=2
 AUX0=0
-K_pr_init=0
+K_pr=0
 Pr1=2265
 Pr2=2275
 
 K_pr1=0
+
+% Sta³e z innych modu³ów:
+% Reaktor:
+B_cl=-0.0631
+B_hl=-0.0741
+V_hl=1000
+V_cl=2000
+V_lp=1791
+V_mo=540
+V_up=1376
+
+% Wytwornica pary
+V_p=1077
