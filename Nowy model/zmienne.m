@@ -7,7 +7,7 @@ B_4 = 0.002727;
 B_5 = 0.000925;
 B_6 = 0.000314;
 
-B_t = 0.00689;
+B_t =  0.00689;
 
 lambda_1 = 0.0125;
 lambda_2 = 0.0308;
@@ -23,7 +23,7 @@ alfa_f = -1.1 * 10^-5;
 alfa_c = -2.0 * 10^-4;
 alfa_p = -1 * 10^-6;
 M_ft = 222739;
-C_PF = 0.059;
+C_pf = 0.059;
 F_r = 0.974;
 
 V_up = 1376;
@@ -32,7 +32,7 @@ V_hl = 1000;
 V_cl = 2000;
 V_mo = 540;
 DENS_mo = 45.71;
-C_PC = 1.39;
+C_pmo = 1.39;
 
 B_cl = -0.0631;
 B_hl = -0.0741;
@@ -52,7 +52,7 @@ T_up0= 592.5;
 T_lp0 = 539.5;
 T_cl0 = 539.5;
 
-ro_ex = 0;
+% ro_ex = 0;
 ro_ex0 = 0;
 POWER_i = 691244.4199;
 T_set0 = 566;
@@ -73,19 +73,19 @@ W_pth = 1.57559 * 10^8;
 %obliczanie sta³ych parametrów dla reaktora
 
 P_0 = (P_cor10 * 3.41) / (3600 * 3);
-h = 200/3600;
-A = 59900/3;
+H_fm= 200/3600;
+A_fm = 59900/3;
 W_pt = W_pth/3600;
 
-M_F = M_ft * 3;
-M_C = V_mo * DENS_mo / 3;
+M_f = M_ft * 3;
+M_mo = V_mo * DENS_mo / 3;
 M_up = V_up * DENS_mo;
 M_lp = V_lp * DENS_mo;
 M_hl = V_hl * DENS_mo;
 M_cl = V_cl * DENS_mo;
 
 
-tau_C = M_C / (2 * W_pt);
+tau_mo = M_mo / (2 * W_pt);
 tau_up = M_up / W_pt;
 tau_lp = M_lp / W_pt;
 tau_hl = M_hl / W_pt;
